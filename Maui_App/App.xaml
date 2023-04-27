@@ -11,7 +11,7 @@
         <Shell>
             <TabBar x:Name="PhoneTabs">
                 <Tab Title="Home">
-                    <ShellContent ContentTemplate ="{DataTemplate local:HomePage}" />
+                    <ShellContent ContentTemplate ="{DataTemplate local:HomePage}" /> <!--Le problème se trouve à cette ligne mais je ne comprends pas -->
                 </Tab>
                 <Tab Title="+Setting">
                     <ShellContent ContentTemplate ="{DataTemplate local:SettingPage}"/>
