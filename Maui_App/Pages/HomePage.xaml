@@ -6,6 +6,7 @@
     <VerticalStackLayout>
         <Label 
             Text="Welcome to Home Page! "
+            FontSize="Large"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
