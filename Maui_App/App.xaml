@@ -11,9 +11,13 @@
         <Shell>
             <TabBar x:Name="PhoneTabs">
                 <Tab Title="Home">
-                    <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
-
-
+                    <ShellContent ContentTemplate ="{DataTemplate local:HomePage}" />
+                </Tab>
+                <Tab Title="+Setting">
+                    <ShellContent ContentTemplate ="{DataTemplate local:SettingPage}"/>
+                </Tab>
+                <Tab Title="About">
+                    <ShellContent ContentTemplate ="{DataTemplate local:AboutPage}"/>
                 </Tab>
             </TabBar>
         </Shell>
